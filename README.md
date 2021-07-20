@@ -5,7 +5,7 @@ This test has been designed to allow us to see your Laravel knowledge and how yo
 If you have any questions regarding this test you can email team@jump24.co.uk and we will answer any questions that you
 may have.
 
-We recommend taking no more than 1 hour to complete the task, remember that if in this time you don't complete the task
+We recommend taking no more than 1 or 2 hours to complete the task, remember that if in this time you don't complete the task
 this won't have a negative effect on your result, a lot of this test is about your approach and how you aim/aimed to 
 tackle the problem at hand. This will be discussed in a quick call once the task is completed.
 
