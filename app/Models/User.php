@@ -40,4 +40,11 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    function mapRawArrayToUser(array $rawUser) : void
+    {
+        $this->setAttribute('id',$rawUser["id"]);
+        $this->setAttribute('email',$rawUser["email"]);
+        $this->setAttribute('name', $rawUser["first_name"] . " " . $rawUser["last_name"]);
+    }
 }
