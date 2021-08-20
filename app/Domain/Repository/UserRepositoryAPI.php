@@ -14,7 +14,7 @@ class UserRepositoryAPI implements IUserRepository
     {
         $this->GuzzleClient = new Client([
             // Base URI is used with relative requests
-            'base_uri' => "https://reqres.in",
+            'base_uri' => config('userRepoAPI.baseURI'),
             // You can set any number of default request options.
             'http_errors' => true,
             'timeout'  => 5.0
